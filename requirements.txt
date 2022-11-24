@@ -1,0 +1,7 @@
+* Python 3.6 or newer
+* numpy
+* scipy
+* scikit-learn
+* pytorch 1.0 or newer
+* matplotlib (for plotting the results)
+* seaborn (for plotting the results)
