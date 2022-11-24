@@ -23,4 +23,7 @@ Use the command in code.sh, like
 
 ## Results
 Applying Cyclic Self-Training Model to base attack model named Graph Structure Poisoning via Meta-Learning, the attack
-performance relatively increases 27%, 28%, and 6% on datasets CORA, CITESEER, and POLBLOGS respectively
+performance relatively increases 27%, 28%, and 6% on datasets CORA, CITESEER, and POLBLOGS respectively.
+
+## Acknowledgement
+Our implementation is based on the [ADVERSARIAL ATTACKS ON GRAPH NEURAL NETWORKS VIA META LEARNING](https://github.com/ChandlerBang/pytorch-gnn-meta-attack). 
