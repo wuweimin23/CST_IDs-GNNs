@@ -10,7 +10,7 @@ To evaluate our method, we implement the CST model based on the adversarial atta
 
 
 ## Algorithm
-$\mathcal{V}_{L}$, $\mathcal{V}_{U}$ denote the labeled, unlabeled nodes respectively. $C_{L}$ is the true label for $\mathcal{V}_{L}$. Initially, we construct two same models, denoted as $f_{\theta_{L}, \alpha}$, $f_{\theta_{U}, \alpha}$, they are constructed for labeled nodes, unlabeled nodes classification respectively. And the parameters $\alpha$ of feature representation in them are shared, while the parameters $\theta_{L}, \theta_{U}$ of classifiers (the last neural layer) are different. $\mathcal{L}_{\text {atk}}$ denotes the loss function the attacker aims to optimize. 
+$\mathcal{V}_{{L}}$, $\mathcal{V}_{{U}}$ denote the labeled, unlabeled nodes respectively. $C_{L}$ is the true label for $\mathcal{V}_{L}$. Initially, we construct two same models, denoted as $f_{\theta_{L}, \alpha}$, $f_{\theta_{U}, \alpha}$, they are constructed for labeled nodes, unlabeled nodes classification respectively. And the parameters $\alpha$ of feature representation in them are shared, while the parameters $\theta_{L}, \theta_{U}$ of classifiers (the last neural layer) are different. $\mathcal{L}_{\text {atk}}$ denotes the loss function the attacker aims to optimize. 
 
 <div align="center">
   <img width="100%" alt="Algorithm of Cyclic Self-training for Adversarial Attack on GNNs" src="https://github.com/wuweimin23/CST-GNNs/blob/master/fig/1.png">
