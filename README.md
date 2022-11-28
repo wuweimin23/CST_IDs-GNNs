@@ -27,4 +27,4 @@ Applying Cyclic Self-Training Model to base attack model named Graph Structure P
 performance relatively increases 27%, 28%, and 6% on datasets CORA, CITESEER, and POLBLOGS respectively.
 
 ## Acknowledgement
-Our implementation is based on the [ADVERSARIAL ATTACKS ON GRAPH NEURAL NETWORKS VIA META LEARNING](https://github.com/ChandlerBang/pytorch-gnn-meta-attack). 
+Our implementation is based on the [Adversarial Attacks on Graph Neural Networks Via Meta Learning](https://github.com/ChandlerBang/pytorch-gnn-meta-attack) and [Cycle Self-Training for Domain Adaptation](https://proceedings.neurips.cc/paper/2021/hash/c1fea270c48e8079d8ddf7d06d26ab52-Abstract.html).
