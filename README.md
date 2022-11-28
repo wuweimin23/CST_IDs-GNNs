@@ -23,8 +23,25 @@ Use the command in code.sh, like
 `python test_metattack.py --dataset citeseer --ite_train 100 --Gibbs 0 --average 0 --sam 0 --model Meta-Self`
 
 ## Results
-Applying Cyclic Self-Training Model to base attack model named Graph Structure Poisoning via Meta-Learning, the attack
-performance relatively increases 27%, 28%, and 6% on datasets CORA, CITESEER, and POLBLOGS respectively.
+
+We following table reports the results of the relative increased percentage after implementing our method based on Graph Structure Poisoning via Meta-Learning for three datasets: Cora, Citeseer, Polblogs.
+
+<div align="center">
+<table>
+        <tr>
+            <th>Dataset</th>
+            <th>Cora</th>
+            <th>Citeseer</th>
+            <th>Polblogs</th>
+        </tr>
+        <tr>
+            <td> CST</td>
+            <td>27%</td>
+            <td>28%</td>
+            <td>6%</td>
+        </tr>
+</table>
+</div>
 
 ## Acknowledgement
 Our implementation is based on the [Adversarial Attacks on Graph Neural Networks Via Meta Learning](https://github.com/ChandlerBang/pytorch-gnn-meta-attack) and [Cycle Self-Training for Domain Adaptation](https://proceedings.neurips.cc/paper/2021/hash/c1fea270c48e8079d8ddf7d06d26ab52-Abstract.html).
