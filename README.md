@@ -1,4 +1,4 @@
-# <div align="center">Cyclic Self-training For Adversarial Attack on Graph Neural Networks</div>
+# <div align="center">Cycle Self-Training and IDs Updating for Adversarial Attack on GNNs</div>
 
 ## Introduction 
 
