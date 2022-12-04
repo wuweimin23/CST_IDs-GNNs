@@ -1,4 +1,4 @@
-# <div align="center">Cycle Self-Training and IDs Updating for Adversarial Attack on GNNs</div>
+# <div align="center">Cycle Self-Training and IDs Updating for Adversarial Attack on GNNs ([Paper](https://github.com/wuweimin23/wuweimin23.github.io/blob/master/files/paper3.pdf))</div>
 
 ## Introduction 
 
